@@ -6,7 +6,7 @@ env:
       
 jobs:
   mdtest:
-    runs-on: grp-ubuntu-20.04-64core
+    runs-on: ubuntu-20.04-64core
     strategy:
       max-parallel: 20
       fail-fast: false
