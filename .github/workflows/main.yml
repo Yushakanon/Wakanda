@@ -6,7 +6,7 @@ env:
       
 jobs:
   mdtest:
-    runs-on: ubuntu-latest-m
+    runs-on: myrunningworkshop
     strategy:
       max-parallel: 20
       fail-fast: false
