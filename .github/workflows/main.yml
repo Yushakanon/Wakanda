@@ -6,7 +6,7 @@ env:
       
 jobs:
   mdtest:
-    runs-on: ghiki
+    runs-on: ubuntu-latest-m
     strategy:
       max-parallel: 20
       fail-fast: false
